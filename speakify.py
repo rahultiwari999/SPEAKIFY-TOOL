@@ -15,7 +15,6 @@ from PySide6.QtWidgets import (QApplication, QMainWindow, QWidget,
 from PySide6.QtCore import Qt, QSize, Signal, QObject, QTimer, QPoint, QPropertyAnimation, QEasingCurve
 from PySide6.QtGui import QFont, QFontDatabase, QPalette, QColor, QIcon, QPixmap
 
-# --- ⚠️ APNE FOLDERS KA SAHI PATH YAHAN DAALEIN ⚠️ ---
 EXCEL_FILES_FOLDER_PATH = r"C:\Users\HP\OneDrive\Desktop\IMAGE FORMAT"
 
 STYLESHEET = """
@@ -238,7 +237,7 @@ STYLESHEET = """
         background: rgba(200, 35, 51, 0.9);
     }
 """
-# --- (YOUR ORIGINAL FUNCTIONS - 100% UNTOUCHED) ---
+# --- (ORIGINAL FUNCTIONS - 100% UNTOUCHED) ---
 VALID_COLUMN_NAMES = {
     "image number": "A", "purohit name": "B", "bahi name": "C", "bahi number": "D", "folio number": "E",
     "district": "G", "tehsil": "H", "station": "I", "post office": "J", "pincode": "K",
